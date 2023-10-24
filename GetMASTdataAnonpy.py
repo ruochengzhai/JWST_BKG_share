@@ -8,14 +8,15 @@ ftps.login(user='anonymous',passwd='anonymous')
 ftps.prot_p() # This is a really good idea :)
 ftps.cwd('stage')
 dir='anonymous/anonymous_20231012Z_0d17d268'
+# get from mast.stsci.edu batch retrieval
 # stagedir is something like 'anonymous/anonyumous12345'
 ftps.cwd(dir)
 #filenames = ftps.nlst()
-filenames = np.loadtxt('data/NGC6720_filenames.txt', dtype=str)
+filenames = np.loadtxt('data/M83_filenames.txt', dtype=str)
 # filenames with 'ch' in the name
 filenames = filenames[['ch' in f for f in filenames]]
 
-out_path='data/NGC6720_files/'
+out_path='data/M83_files/'
 #localdir='C:\\Users\\Chas\\Documents\\ngst\\Fomalhaut\\'
 #localdir='D:\\JWSTData\\WISE1828\\'
 #os.chdir(localdir) #chdir used for change direcotry
