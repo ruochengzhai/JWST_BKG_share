@@ -203,6 +203,6 @@ def filter_mat(dir_path, infile):
 
 if __name__ == '__main__':
     dir_path = 'output/M83/M-83-Background/'
-    infile = 'jw02219-o005_t006_miri_ch3-short_s3d.mat'
+    infile = 'jw02219-o005_t006_miri_ch3-short.mat'
     filter_mat(dir_path, infile)
 
