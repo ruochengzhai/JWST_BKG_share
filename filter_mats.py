@@ -23,7 +23,7 @@ def get_infiles(dir_path):
     return infiles
 
 if __name__ == '__main__':
-    dir_path = 'output/NGC2070/'
+    dir_path = 'output/M83/'
     names = get_names(dir_path)
     for name in names:
         print('----- Working on ' + name + ' -----')
