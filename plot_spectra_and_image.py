@@ -114,8 +114,8 @@ def plot_spectra_image(dir_path, infile, name):
     display_image(imgstack, S, dir_path)
 
 if __name__ == '__main__':
-    dir_path = 'output/Neon/'
-    name = 'MIRI-iras15398-bkg'
-    infile = 'jw02151-o007_t007_miri_ch3-shortmediumlong.mat'
+    dir_path = 'output/M83/'
+    name = 'M-83-Background'
+    infile = 'jw02219-o005_t006_miri_ch3-short_s3d.mat'
     plot_spectra_image(dir_path, infile, name)
     plt.show()
