@@ -52,8 +52,7 @@ def generate_spectrum(S, fits_file, p=0.5, M=None):
 
     not_all_nan = []
     for j in range(N):
-        ind = j - 1
-        A = data[ind, :, :]
+        A = data[j, :, :]
 
         if mask:
             A[rad2 < erad2] = 0
