@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from analyze_single_fits import create_mat
 from plot_spectra_and_image import plot_spectra_image
 
-dir_name = 'NGC2070'
+dir_name = 'M83'
 
 csv_file = pd.read_csv('output/%s_info.csv'%dir_name)
 infiles = csv_file['filename']
