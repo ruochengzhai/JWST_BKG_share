@@ -100,9 +100,9 @@ def create_mat(indir, infile, outdir, name):
     scipy.io.savemat(outdir + file_name + '.mat', {'S':S, 'imgstack': imgstack, 'lambda': lambda_vals, 'ymean': ymean, 'ymed': ymed})
 
 if __name__ == '__main__':
-    indir = "data/try_files"
-    infile = "jw02151-o007_t007_miri_ch3-shortmediumlong_s3d.fits"
-    outdir = 'output/Neon/'
-    name = 'MIRI-iras15398-bkg'
+    indir = "data/M83_files"
+    infile = "jw02219-o005_t006_miri_ch3-short_s3d.fits"
+    outdir = 'output/'
+    name = 'M-83-Background'
     create_mat(indir, infile, outdir, name)
     
