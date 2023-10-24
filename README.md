@@ -8,7 +8,7 @@ In "output/" directory, there is a info csv file, and output directory store dat
 
 ## Add information
 
-Use *add_info.py* to add Galactic coordinates to csv files.
+Use **add_info.py** to add Galactic coordinates to csv files.
 
 ## Analysis
 
