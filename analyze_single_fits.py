@@ -102,7 +102,7 @@ def create_mat(indir, infile, outdir, name):
 if __name__ == '__main__':
     indir = "data/M83_files"
     infile = "jw02219-o005_t006_miri_ch3-short_s3d.fits"
-    outdir = 'output/'
+    outdir = 'output/M83/'
     name = 'M-83-Background'
     create_mat(indir, infile, outdir, name)
     
