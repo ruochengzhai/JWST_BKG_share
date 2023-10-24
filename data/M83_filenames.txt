@@ -1,0 +1,12 @@
+jw02219-o005_t006_miri_ch3-short_s3d.fits
+jw02219-o005_t006_miri_ch1-short_s3d.fits
+jw02219-o005_t006_miri_ch2-short_s3d.fits
+jw02219-o005_t006_miri_ch4-short_s3d.fits
+jw02219-o010_t006_miri_ch1-medium_s3d.fits
+jw02219-o010_t006_miri_ch2-medium_s3d.fits
+jw02219-o010_t006_miri_ch3-medium_s3d.fits
+jw02219-o010_t006_miri_ch4-medium_s3d.fits
+jw02219-o015_t006_miri_ch1-long_s3d.fits
+jw02219-o015_t006_miri_ch2-long_s3d.fits
+jw02219-o015_t006_miri_ch3-long_s3d.fits
+jw02219-o015_t006_miri_ch4-long_s3d.fits
