@@ -14,9 +14,9 @@ Use *add_info.py* to add Galactic coordinates to csv files.
 
 ### Analyze fits files
 
-*analyze_single_fits* read a fits file, store name, channel information, etc. to a ".mat" file, along with a stacked image, a wavelength vector, a mean flux vector, and a median flux vector.
+**analyze_single_fits.py** read a fits file, store name, channel information, etc. to a ".mat" file, along with a stacked image, a wavelength vector, a mean flux vector, and a median flux vector.
 
-*plot_spectra_and_image* plot data in the ".mat" file created.
+**plot_spectra_and_image.py** plot data in the ".mat" file created.
 
-*analyze_fits* read in a list of fits files, produce ".mat" files, and plot figures.
+**analyze_fits.py** read in a list of fits files, produce ".mat" files, and plot figures.
 
