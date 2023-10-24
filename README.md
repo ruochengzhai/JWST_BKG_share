@@ -1,6 +1,6 @@
 # Some scripts analyzing JWST background field
 
-**data storation
+## data storation
 
 In "data/" directory, there is a directory of fits files, a information csv file, and a file names txt file.
 
