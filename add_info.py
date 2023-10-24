@@ -3,7 +3,7 @@ import pandas as pd
 from astropy import units as u
 from astropy.coordinates import SkyCoord
 
-all_csv = pd.read_csv('data/JWST_NGC2070_useful_s3d.csv', comment='#')
+all_csv = pd.read_csv('data/JWST_M83_useful_s3d.csv', comment='#')
 chain_csv = all_csv[['filename', 'obslabel', 'targname', 'targprop']].copy()[all_csv['bkg'] ==True]
 #chain_csv = pd.read_csv('output/M83.csv', comment='#')
 
@@ -38,4 +38,4 @@ chain_csv.insert(index+3, 'targ_l', targ_l)
 chain_csv.insert(index+4, 'targ_b', targ_b)
 
 # save chain_csv
-chain_csv.to_csv('output/NGC2070_info.csv', index=False)
+chain_csv.to_csv('output/M83_info.csv', index=False)
