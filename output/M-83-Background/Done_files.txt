@@ -1,0 +1,8 @@
+jw02219-o005_t006_miri_ch3-short.mat
+jw02219-o010_t006_miri_ch3-medium.mat
+jw02219-o005_t006_miri_ch4-short.mat
+jw02219-o010_t006_miri_ch4-medium.mat
+jw02219-o015_t006_miri_ch3-long.mat
+jw02219-o015_t006_miri_ch2-long.mat
+jw02219-o010_t006_miri_ch2-medium.mat
+jw02219-o015_t006_miri_ch1-long.mat
