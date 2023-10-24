@@ -202,7 +202,7 @@ def filter_mat(dir_path, infile):
     return True
 
 if __name__ == '__main__':
-    dir_path = 'output/Neon/MIRI-iras15398-bkg_copy/'
-    infile = 'jw02151-o007_t007_miri_ch3-shortmediumlong.mat'
+    dir_path = 'output/M83/M-83-Background/'
+    infile = 'jw02219-o005_t006_miri_ch3-short_s3d.mat'
     filter_mat(dir_path, infile)
 
