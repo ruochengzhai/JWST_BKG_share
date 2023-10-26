@@ -32,3 +32,5 @@ When analyzing a single fits file, please use **analyze_single_fits.py** and **p
 
 **Cubeviz** is a visualization and analysis toolbox for data cubes from integral field units (IFUs). Please refer to https://jdaviz.readthedocs.io/en/latest/cubeviz/index.html.
 
+**try.ipynb** can interactively use Cubeviz to show the spectra from fits files in a certain directory.
+
