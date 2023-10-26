@@ -8,7 +8,7 @@ In "output/" directory, there is a info csv file, and output directory store dat
 
 ## Add Information
 
-Use **add_info.py**(https://github.com/ruochengzhai/JWST_BKG_share/blob/main/add_info.py) to add Galactic coordinates to csv files.
+Use **add_info.py** to add Galactic coordinates to csv files.
 
 ## Analysis
 
