@@ -1,18 +1,18 @@
 # Some scripts analyzing JWST background field
 
-## data storation
+## Data Storation
 
 In "data/" directory, there is a directory of fits files, a information csv file, and a file names txt file.
 
 In "output/" directory, there is a info csv file, and output directory store data produced and collected in the target name based directories.
 
-## Add information
+## Add Information
 
 Use **add_info.py** to add Galactic coordinates to csv files.
 
 ## Analysis
 
-### Analyze fits files
+### Analyze fits Files
 
 **analyze_single_fits.py** read a fits file, store name, channel information, etc. to a ".mat" file, along with a stacked image, a wavelength vector, a mean flux vector, and a median flux vector.
 
