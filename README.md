@@ -20,6 +20,8 @@ Use **add_info.py** to add Galactic coordinates to csv files.
 
 **analyze_fits.py** read in a list of fits files, produce ".mat" files, and plot figures.
 
+When analyzing a single fits file, please use **analyze_single_fits.py** and **plot_spectra_and_image.py**. If many fits files need to be analyzed, please first store their information in a csv file. Then use **analyze_fits.py** to analyze them together. Output files will be classified by the target names automatically.
+
 ### Fourier Filtration
 
 **filter_single_mat.py** use fast Fourier transformation to filter the median flux vector around emission lines to remove periodical signals in spetra. Users can change the filtration windows on the frequencies to reach the best perfomance.
